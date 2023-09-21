@@ -1,0 +1,144 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.car {
+  display: flex;
+}
+.arrowsContainer {
+  display: flex;
+  position: absolute;
+  right: 5%;
+  margin-bottom: 40px;
+  /* background-color: #50bf1d; */
+}
+.overText {
+  width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  /* background-color: red; */
+  margin-bottom: 0%;
+}
+.arrows {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  background-color: rgb(226, 226, 231);
+  cursor: pointer;
+}
+.topResHeading {
+  position: absolute;
+  left: 5%;
+  margin-bottom: 40px;
+}
+.top-res {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.topResCon {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  margin: 0% 1.65%;
+  /* background-color: #50bf1d; */
+  cursor: pointer;
+}
+.topResCon:hover {
+  transform: scaleY(0.5);
+  transform: scaleX(0.6);
+}
+
+.topResMain {
+  display: flex;
+  width: 90vw;
+  /* background-color: #2b2a24; */
+}
+.topResCard {
+  height: 182px;
+  width: 98%;
+  margin: 5% 1%;
+  position: relative;
+  cursor: pointer;
+  border-radius: 40px;
+}
+.topResCard > img {
+  border-radius: 5%;
+}
+.topResDetails {
+  width: 98%;
+  padding: 0px 1%;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  text-align: left;
+}
+.offerText {
+  position: absolute;
+  bottom: -10%;
+  left: 0%;
+  width: 100%;
+  text-align: start;
+  padding-left: 10px;
+  color: #ffffff;
+  background-color: #2b2a24;
+  border-radius: 0% 0% 10% 10%;
+}
+.ratingIcon {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: #50bf1d;
+  text-align: center;
+  margin-right: 5px;
+}
+.ratingCon {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.ratingCon > h5 {
+  margin-top: 5px;
+}
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
